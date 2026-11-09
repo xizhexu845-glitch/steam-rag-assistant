@@ -7,7 +7,6 @@
 ### 项目简介
 基于检索增强生成（RAG）的中文游戏信息问答原型。将游戏信息转换为文档，使用智谱 Embedding 和 Chroma 构建知识库，再结合聊天模型生成回答，通过 Streamlit 展示对话和检索信息。
 
-作者：徐思哲（[xizhexu845-glitch](https://github.com/xizhexu845-glitch)）。本项目为个人项目。
 
 ### 功能与技术流程
 - 游戏信息文档化、向量化及本地索引更新。
@@ -73,8 +72,7 @@ python -m unittest discover -s tests -v
 - 可选采集工具需要本地提供 `data_base/steam_category.json`，并确认来源的采集及使用条件；示例演示不依赖它。
 - 在线运行需要有效账号、模型访问权限和网络连接；离线测试不能替代端到端验证。
 
-### 数据与许可
-未分发原始数据、抓取内容、预生成向量库、头像或完整 Python 环境。第三方依赖遵循各自许可；本仓库目前未授予开源许可证。详见 [OWNERSHIP.md](OWNERSHIP.md)。
+
 
 ---
 
@@ -83,7 +81,6 @@ python -m unittest discover -s tests -v
 ### Overview
 A Chinese-language game-information prototype built with retrieval-augmented generation (RAG). Game information is converted into documents, embedded with Zhipu AI, stored in Chroma, and retrieved to support conversational answers in a Streamlit interface.
 
-Author: 徐思哲 ([xizhexu845-glitch](https://github.com/xizhexu845-glitch)). This is an individual project.
 
 ### Features and architecture
 - Document preparation, embeddings, and local index updates.
@@ -149,5 +146,4 @@ Three offline tests passed: synthetic document normalization, empty-input handli
 - Optional collection utilities require a locally supplied `data_base/steam_category.json` and compliance with the source's collection and usage conditions. The demo does not depend on them.
 - Live execution requires a valid account, model access, and connectivity. Offline tests do not replace end-to-end validation.
 
-### Data and licensing
-Original data, scraped content, prebuilt indexes, avatars, and bundled Python environments are excluded. Dependencies retain their own licenses. No open-source license is currently granted for this repository. See [OWNERSHIP.md](OWNERSHIP.md).
+
