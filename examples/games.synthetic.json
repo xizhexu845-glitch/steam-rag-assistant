@@ -1,0 +1,19 @@
+[
+  {
+    "steamid": "demo-001",
+    "info": {
+      "name": "Moon Garden (fictional demo)",
+      "full_description": "A fictional single-player gardening puzzle game used only to test the pipeline.",
+      "tags": [
+        "Puzzle",
+        "Singleplayer"
+      ],
+      "price": "Synthetic example; not for sale",
+      "user_reviews": [
+        {
+          "review": "Synthetic review: calm puzzles and short sessions."
+        }
+      ]
+    }
+  }
+]
